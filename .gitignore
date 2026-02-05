@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Coverage
+coverage/
+
+# Temp files
+*.tgz
+*.swp
+*~
+
+# Screenshots / Word docs (assignment screenshots should not be pushed)
+/screenshots/
+*.docx
+*.doc
+
+# Optional: uploads
+uploads/
+public/uploads/
+
+# Misc
+.DS_Store
+npm-debug.log
+yarn-error.log
